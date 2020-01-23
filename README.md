@@ -10,6 +10,6 @@ try leetcode in spare time
 | :boom::star::heart: | Title     |  Tag    |  Difficulty  |
 | ------------------- | ---- | ---- | ---- |
 | :heart: | [1.Two Sum](file/Two_sum.md) | Array,Map | Easy |
-| :star: | [20.Valid Parentheses](file/) |      |      |
+| :star: | [20.Valid Parentheses](file/Valid_Parentheses.md) | Stack,Map | Easy |
 |                     |      |      |      |
 
