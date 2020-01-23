@@ -22,5 +22,25 @@ class Solution {
 }
 ```
 
-### 倒推法
+### HashMap存值
+
+暴力解直接两层循环进行查找，但是相应的，第二层循环总是被重复，我们可以使用HashMap对直接遍历过的值进行存储，后续我们只需要判断目标值与当前值的差值是否在HashMap中即可。
+
+```
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+    Map<Integer,Integer> map=new HashMap<>();
+    for(int i=0;i<nums.length;i++){
+        int sub=target-nums[i];
+        if(map.containsKey(sub)){
+            return new int[]{i,map.get(sub)};
+        }
+        map.put(nums[i], i);
+    }
+    throw new IllegalArgumentException("No two sum solution");
+    }
+}
+```
+
+
 
