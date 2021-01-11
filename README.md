@@ -1,16 +1,2 @@
 # LeetCode
 try leetcode in spare time
-
-:boom:表示做过的但是后续还是不会
-
-:star:表示拿到手不会做的或者虽然会做但是花了很长时间
-
-:heart:表示会做的
-
-| :boom::star::heart: | Title     |  Tag    |  Difficulty  |
-| ------------------- | ---- | ---- | ---- |
-| :heart: | [1.Two Sum](file/Two_sum.md) | Array,Map | Easy |
-| :star: | [20.Valid Parentheses](file/Valid_Parentheses.md) | Stack,Map | Easy |
-| :star: | [21.Merge Two Sorted Lists](file/21.md) | 递归\|非递归，Linked List | Easy |
-| :star: | [26.Remove Duplicates from Sorted Array](file/26.md) | 数组，指针 | Easy |
-
